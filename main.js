@@ -39,7 +39,7 @@ exrLoader.load('./images/autumn_field_4k.exr', (texture) => {
 // Текст
 const loader = new FontLoader();
 loader.load('./fonts/helvetiker_regular.typeface.json', function (font) {
-  const geometry = new TextGeometry("I have no enemies", {
+  const geometry = new TextGeometry("I wanna go home...", {
     font: font,
     size: 2,
     height: 2,
